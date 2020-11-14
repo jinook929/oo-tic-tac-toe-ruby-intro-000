@@ -100,7 +100,7 @@ class TicTacToe
   
   
   def full?()
-    if(@oard.any? { |n| n == " " } || @board.any? { |n| n == "" } || @board.any? { |n| n == nil })
+    if(@board.any? { |n| n == " " } || @board.any? { |n| n == "" } || @board.any? { |n| n == nil })
       false 
     else 
       true
